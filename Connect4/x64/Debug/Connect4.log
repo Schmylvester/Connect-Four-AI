@@ -1,0 +1,17 @@
+﻿  Evolution.cpp
+  Player.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\xutility(4460,24): warning C4244: '=': conversion from 'const _Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+D:\programming\Connect4\Connect4\Player.cpp(25): message : see reference to function template instantiation 'void std::fill<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,int>(const _FwdIt,const _FwdIt,const int &)' being compiled
+          with
+          [
+              _Ty=float,
+              _FwdIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<float>>>
+          ]
+  Source.cpp
+D:\programming\Connect4\Connect4\Source.cpp(8,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Generating Code...
+  Connect4.vcxproj -> D:\programming\Connect4\x64\Debug\Connect4.exe
